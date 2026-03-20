@@ -41,7 +41,7 @@ export default function MusicPlayer() {
   };
 
   return (
-    <div className="fixed bottom-24 right-6 z-[100] flex flex-col items-end gap-3">
+    <div className="fixed bottom-10 right-6 z-[100] flex flex-col items-end gap-3">
       <AnimatePresence>
         {showPlayer && (
           <motion.div
