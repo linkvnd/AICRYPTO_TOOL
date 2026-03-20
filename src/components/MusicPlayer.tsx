@@ -8,7 +8,7 @@ import { doc, onSnapshot } from 'firebase/firestore';
 export default function MusicPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [showPlayer, setShowPlayer] = useState(false);
-  const [audioUrl, setAudioUrl] = useState("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3");
+  const [audioUrl, setAudioUrl] = useState("https://files.catbox.moe/5yveay.mp3");
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
